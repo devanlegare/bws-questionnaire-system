@@ -1,0 +1,76 @@
+Question ID,Question Text,Answer ID,Answer Text,Answer Value
+Q1,"What is the intent of your portfolio? Please select the most appropriate one.",answer-Q1-1,"To generate income for today ",0
+Q1,"What is the intent of your portfolio? Please select the most appropriate one.",answer-Q1-2,"To generate income at a later date ",10
+Q1,"What is the intent of your portfolio? Please select the most appropriate one.",answer-Q1-3,"To provide for my dependents (I do not anticipate using these funds) ",15
+Q1,"What is the intent of your portfolio? Please select the most appropriate one.",answer-Q1-4,"To fund a large purchase in the future",10
+Q1,"What is the intent of your portfolio? Please select the most appropriate one.",answer-Q1-5,"To fund a philanthropy goal in the future",15
+Q2,"What would your ideal portfolio experience be? Please select the most appropriate one.",answer-Q2-1,"To ensure my portfolio remains secure ",2
+Q2,"What would your ideal portfolio experience be? Please select the most appropriate one.",answer-Q2-2,"To see my portfolio grow and to avoid fluctuating returns ",5
+Q2,"What would your ideal portfolio experience be? Please select the most appropriate one.",answer-Q2-3,"To balance growth and security, and to keep pace with inflation ",10
+Q2,"What would your ideal portfolio experience be? Please select the most appropriate one.",answer-Q2-4,"To provide growth potential, and to accept some fluctuation in returns ",15
+Q2,"What would your ideal portfolio experience be? Please select the most appropriate one.",answer-Q2-5,"To provide the sole objective of potential long-term growth ",20
+Q3,"Which of the following ranges includes your age?",answer-Q3-1,"Under 49",15
+Q3,"Which of the following ranges includes your age?",answer-Q3-2,"50 to 59",10
+Q3,"Which of the following ranges includes your age?",answer-Q3-3,"60 to 69",5
+Q3,"Which of the following ranges includes your age?",answer-Q3-4,"70 to 79",3
+Q3,"Which of the following ranges includes your age?",answer-Q3-5,"Over 79",2
+Q4,"Which of the following ranges best represents your current annual family income (including pensions) before taxes?",answer-Q4-1,"Under $60,000",4
+Q4,"Which of the following ranges best represents your current annual family income (including pensions) before taxes?",answer-Q4-2,"$60,000 to $100,000",6
+Q4,"Which of the following ranges best represents your current annual family income (including pensions) before taxes?",answer-Q4-3,"$100,001 to $175,000",8
+Q4,"Which of the following ranges best represents your current annual family income (including pensions) before taxes?",answer-Q4-4,"$175,001 to $250,000",10
+Q4,"Which of the following ranges best represents your current annual family income (including pensions) before taxes?",answer-Q4-5,"More than $250,000",10
+Q5,"After deducting any loan or mortgage balances, which one of the following ranges best represents your immediate familys overall net worth?",answer-Q5-1,"Under $30,000 ",2
+Q5,"After deducting any loan or mortgage balances, which one of the following ranges best represents your immediate familys overall net worth?",answer-Q5-2,"$30,000 to $50,000 ",4
+Q5,"After deducting any loan or mortgage balances, which one of the following ranges best represents your immediate familys overall net worth?",answer-Q5-3,"$50,001 to $100,000 ",6
+Q5,"After deducting any loan or mortgage balances, which one of the following ranges best represents your immediate familys overall net worth?",answer-Q5-4,"$100,001 to $200,000 ",8
+Q5,"After deducting any loan or mortgage balances, which one of the following ranges best represents your immediate familys overall net worth?",answer-Q5-5,"More than $200,000",10
+Q6,"When would you begin using/withdrawing from your investment accounts?",answer-Q6-1,"Less than 3 years",0
+Q6,"When would you begin using/withdrawing from your investment accounts?",answer-Q6-2,"4 to 5 years",5
+Q6,"When would you begin using/withdrawing from your investment accounts?",answer-Q6-3,"6 to 10 years",10
+Q6,"When would you begin using/withdrawing from your investment accounts?",answer-Q6-4,"11 to 15 years",15
+Q6,"When would you begin using/withdrawing from your investment accounts?",answer-Q6-5,"16 or more years",20
+Q7,"When you begin withdrawing from your investment accounts, how long do you anticipate the withdrawals lasting?",answer-Q7-1,"Over a period of 2 or less years",3
+Q7,"When you begin withdrawing from your investment accounts, how long do you anticipate the withdrawals lasting?",answer-Q7-2,"Over a period of 3 to 5 years ",5
+Q7,"When you begin withdrawing from your investment accounts, how long do you anticipate the withdrawals lasting?",answer-Q7-3,"Over a period of 6 to 9 years ",8
+Q7,"When you begin withdrawing from your investment accounts, how long do you anticipate the withdrawals lasting?",answer-Q7-4,"Over a period of 10 to 15 years ",10
+Q7,"When you begin withdrawing from your investment accounts, how long do you anticipate the withdrawals lasting?",answer-Q7-5,"Over a period of more than 15 years",15
+Q8,"What are your intentions regarding withdrawals and/or contributions to your investments today and over the next five years?",answer-Q8-1,"I plan to withdraw money at regular intervals and do not plan on making contributions. ",5
+Q8,"What are your intentions regarding withdrawals and/or contributions to your investments today and over the next five years?",answer-Q8-2,"I will likely make a lump-sum withdrawal and do not plan on making contributions. ",7
+Q8,"What are your intentions regarding withdrawals and/or contributions to your investments today and over the next five years?",answer-Q8-3,"I will likely be making both contributions and withdrawals. ",8
+Q8,"What are your intentions regarding withdrawals and/or contributions to your investments today and over the next five years?",answer-Q8-4,"I will likely make contributions and will potentially make infrequent withdrawals. ",10
+Q8,"What are your intentions regarding withdrawals and/or contributions to your investments today and over the next five years?",answer-Q8-5,"I will certainly make contributions and will not be withdrawing any funds. ",15
+Q9,"Please indicate which of the following statements best describes your household financial situation. ",answer-Q9-1,"My financial situation is very unstable and insecure.",5
+Q9,"Please indicate which of the following statements best describes your household financial situation. ",answer-Q9-2,"My financial situation is somewhat unstable and insecure.",7
+Q9,"Please indicate which of the following statements best describes your household financial situation. ",answer-Q9-3,"My financial situation is moderately stable and secure.",8
+Q9,"Please indicate which of the following statements best describes your household financial situation. ",answer-Q9-4,"My financial situation is quite stable and secure.",10
+Q9,"Please indicate which of the following statements best describes your household financial situation. ",answer-Q9-5,"My financial situation is very stable and secure.",15
+Q10,"Which statement best describes your knowledge of investments?",answer-Q10-1,"I have little or no experience with the security markets and have held only Term Deposits or GICs",2
+Q10,"Which statement best describes your knowledge of investments?",answer-Q10-2,"I have some experience with the security markets and have held mutual funds, stocks, and/or bonds.  Though I seldom follow developments in the markets.",5
+Q10,"Which statement best describes your knowledge of investments?",answer-Q10-3,"I have a moderate amount of experience with the security markets and have held investment funds, stocks, and/or bonds.  I generally follow developments in the markets.",8
+Q10,"Which statement best describes your knowledge of investments?",answer-Q10-4,"I have a considerable amount of investment experience and have been involved in the management of my investments.  I actively follow developments in the markets.",10
+Q10,"Which statement best describes your knowledge of investments?",answer-Q10-5,"I consider myself an expert in investing.",15
+Q11,"Realizing there will be downturns in the market, how long are you prepared to hold your existing investments in anticipation of a recovery in value?",answer-Q11-1,"Less than three months ",5
+Q11,"Realizing there will be downturns in the market, how long are you prepared to hold your existing investments in anticipation of a recovery in value?",answer-Q11-2,"Three to six months ",8
+Q11,"Realizing there will be downturns in the market, how long are you prepared to hold your existing investments in anticipation of a recovery in value?",answer-Q11-3,"Six months to one year ",10
+Q11,"Realizing there will be downturns in the market, how long are you prepared to hold your existing investments in anticipation of a recovery in value?",answer-Q11-4,"One to two years ",15
+Q11,"Realizing there will be downturns in the market, how long are you prepared to hold your existing investments in anticipation of a recovery in value?",answer-Q11-5,"Two or more years",20
+Q12,"Assuming you invest $100,000 for the long term, what is the maximum drop in your portfolios value you could comfortably tolerate in any given year?",answer-Q12-1,"Id be uncomfortable with any loss.",2
+Q12,"Assuming you invest $100,000 for the long term, what is the maximum drop in your portfolios value you could comfortably tolerate in any given year?",answer-Q12-2,"A $5,000 drop is all I could live with. ",5
+Q12,"Assuming you invest $100,000 for the long term, what is the maximum drop in your portfolios value you could comfortably tolerate in any given year?",answer-Q12-3,"A $10,000 decline is something I could tolerate. ",10
+Q12,"Assuming you invest $100,000 for the long term, what is the maximum drop in your portfolios value you could comfortably tolerate in any given year?",answer-Q12-4,"A $15,000 drop would be about all I could stand. ",15
+Q12,"Assuming you invest $100,000 for the long term, what is the maximum drop in your portfolios value you could comfortably tolerate in any given year?",answer-Q12-5,"A $20,000 decline is pretty much my limit. ",20
+Q13,"Which of the following statements most correctly describes your comfort with fluctuations in investment value?",answer-Q13-1,"I cannot accept any fluctuation in principal.",5
+Q13,"Which of the following statements most correctly describes your comfort with fluctuations in investment value?",answer-Q13-2,"I can only accept minimal fluctuations, and prefer to invest in safer, lower-return investments. ",10
+Q13,"Which of the following statements most correctly describes your comfort with fluctuations in investment value?",answer-Q13-3,"I am willing to tolerate some ups and downs in the value of my investments to achieve overall higher returns in the long run. ",20
+Q13,"Which of the following statements most correctly describes your comfort with fluctuations in investment value?",answer-Q13-4,"Good - I can handle major ups and downs in the market",25
+Q13,"Which of the following statements most correctly describes your comfort with fluctuations in investment value?",answer-Q13-5,"My main interest is high, long-term returns and I am not concerned about short-term decreases in the value of my investments. ",30
+Q14,"What percentage of this investment could you afford to lose over the short-term (1-3 years) without affecting your long-term goals?",answer-Q14-1,"None - I cannot afford any losses.",5
+Q14,"What percentage of this investment could you afford to lose over the short-term (1-3 years) without affecting your long-term goals?",answer-Q14-2,"Less than 10% - Even small losses would be challenging.",10
+Q14,"What percentage of this investment could you afford to lose over the short-term (1-3 years) without affecting your long-term goals?",answer-Q14-3,"10-25% - I could tolerate moderate losses without altering my plans.",20
+Q14,"What percentage of this investment could you afford to lose over the short-term (1-3 years) without affecting your long-term goals?",answer-Q14-4,"25-50% - I could handle significant temporary losses without serious impact.",25
+Q14,"What percentage of this investment could you afford to lose over the short-term (1-3 years) without affecting your long-term goals?",answer-Q14-5,"More than 50% - I view this as long-term money and can endure substantial temporary losses.",30
+Q15,"I am willing to experience potentially large and frequent declines in the value of my investments if it will increase the likelihood of achieving higher long-term returns.",answer-Q15-1,"Strongly agree",20
+Q15,"I am willing to experience potentially large and frequent declines in the value of my investments if it will increase the likelihood of achieving higher long-term returns.",answer-Q15-2,"Agree ",15
+Q15,"I am willing to experience potentially large and frequent declines in the value of my investments if it will increase the likelihood of achieving higher long-term returns.",answer-Q15-3,"Somewhat agree",12
+Q15,"I am willing to experience potentially large and frequent declines in the value of my investments if it will increase the likelihood of achieving higher long-term returns.",answer-Q15-4,"Disagree ",10
+Q15,"I am willing to experience potentially large and frequent declines in the value of my investments if it will increase the likelihood of achieving higher long-term returns.",answer-Q15-5,"Strongly disagree ",5

@@ -1,0 +1,172 @@
+{
+  "id": "riskTolerance",
+  "title": "Risk Tolerance Assessment",
+  "description": "This questionnaire helps us understand your attitude toward investment risk so we can tailor your portfolio accordingly.",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What is the intent of your portfolio? Please select the most appropriate one.",
+      "options": [
+        {
+          "id": "q1a1",
+          "text": "To generate income for today",
+          "value": 0
+        },
+        {
+          "id": "q1a2",
+          "text": "To generate income at a later date ",
+          "value": 10
+        },
+        {
+          "id": "q1a3",
+          "text": "To provide for my dependents (I do not anticipate using these funds)",
+          "value": 15
+        },
+        {
+          "id": "q1a4",
+          "text": "To fund a large purchase in the future",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "What would your ideal portfolio experience be? Please select the most appropriate one.",
+      "options": [
+        {
+          "id": "q2a1",
+          "text": "To ensure my portfolio remains secure",
+          "value": 2
+        },
+        {
+          "id": "q2a2",
+          "text": "To see my portfolio grow and to avoid fluctuating returns",
+          "value": 5
+        },
+        {
+          "id": "q2a3",
+          "text": "To balance growth and security, and to keep pace with inflation",
+          "value": 10
+        },
+        {
+          "id": "q2a4",
+          "text": "To provide growth potential, and to accept some fluctuation in returns",
+          "value": 15
+        }
+        {
+          "id": "q2a5",
+          "text": "To provide the sole objective of potential long-term growth",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Which of the following ranges includes your age?",
+      "options": [
+        {
+          "id": "q3a1",
+          "text": "Under 30",
+          "value": 15
+        },
+        {
+          "id": "q3a2",
+          "text": "30 to 39",
+          "value": 15
+        },
+        {
+          "id": "q3a3",
+          "text": "40 to 49",
+          "value": 15
+        },
+        {
+          "id": "q3a4",
+          "text": "50 to 59",
+          "value": 10
+        }
+        {
+          "id": "q3a5",
+          "text": "60 to 69",
+          "value": 5
+        }
+        {
+          "id": "q3a6",
+          "text": "70 to 79",
+          "value": 3
+        }
+        {
+          "id": "q3a7",
+          "text": "Over 79",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Which of the following ranges best represents your current annual family income (including pensions) before taxes?",
+      "options": [
+        {
+          "id": "q4a1",
+          "text": "Under $30,000",
+          "value": 4
+        },
+        {
+          "id": "q4a2",
+          "text": "$30,000 to $60,000",
+          "value": 6
+        },
+        {
+          "id": "q4a3",
+          "text": "$60,001 to $90,000",
+          "value": 8
+        },
+        {
+          "id": "q4a4",
+          "text": "$90,001 to $120,000",
+          "value": 10
+        }
+        {
+          "id": "q4a5",
+          "text": "More than $120,000",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "After deducting any loan or mortgage balances, which one of the following ranges best represents your immediate family’s overall net worth?",
+      "options": [
+        {
+          "id": "q5a1",
+          "text": "Under $30,000",
+          "value": 2
+        },
+        {
+          "id": "q5a2",
+          "text": "$30,000 to $50,000",
+          "value": 4
+        },
+        {
+          "id": "q5a3",
+          "text": "$50,001 to $100,000",
+          "value": 6
+        },
+        {
+          "id": "q5a4",
+          "text": "100,001 to $200,000",
+          "value": 8
+        }
+        {
+          "id": "q5a5",
+          "text": "200,001 to $300,000",
+          "value": 10
+        }
+        {
+          "id": "q5a6",
+          "text": "More than $300,000",
+          "value": 10
+        }
+      ]
+    }
+  ]
+}

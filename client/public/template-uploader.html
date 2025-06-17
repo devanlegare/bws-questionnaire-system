@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question Template Uploader</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      color: #2563eb;
+      margin-bottom: 10px;
+    }
+    .description {
+      color: #666;
+      margin-bottom: 20px;
+    }
+    .container {
+      display: flex;
+      gap: 20px;
+    }
+    .form-container {
+      flex: 1;
+    }
+    .template-container {
+      flex: 1;
+    }
+    textarea {
+      width: 100%;
+      height: 400px;
+      font-family: monospace;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+    button {
+      padding: 8px 16px;
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #1d4ed8;
+    }
+    .status {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #f8f9fa;
+      border-radius: 4px;
+      display: none;
+    }
+    .success {
+      background-color: #d1fae5;
+      color: #047857;
+    }
+    .error {
+      background-color: #fee2e2;
+      color: #b91c1c;
+    }
+    .controls {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Question Template Uploader</h1>
+  <div class="description">
+    <p>Use this tool to upload custom questionnaires with points-based scoring.</p>
+  </div>
+
+  <div class="container">
+    <div class="form-container">
+      <label for="admin-login">Admin Login</label>
+      <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+        <input type="text" id="username" placeholder="Username" value="admin" style="flex: 1; padding: 8px;">
+        <input type="password" id="password" placeholder="Password" value="admin123" style="flex: 1; padding: 8px;">
+        <button id="login-btn">Login</button>
+      </div>
+
+      <label for="template-json">Template JSON</label>
+      <textarea id="template-json" placeholder="Paste your JSON template here"></textarea>
+      
+      <div class="controls">
+        <button id="load-example">Load Example</button>
+        <button id="upload-btn" disabled>Upload Template</button>
+      </div>
+      
+      <div id="status" class="status"></div>
+    </div>
+    
+    <div class="template-container">
+      <label>Template Format</label>
+      <div style="background-color: #f8f9fa; padding: 15px; border-radius: 4px; margin-bottom: 20px;">
+        <pre><code>{
+  "id": "sectionName",  // e.g. "riskTolerance"
+  "title": "Template Title",
+  "description": "Optional description",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Question text?",
+      "options": [
+        {
+          "id": "q1a1",
+          "text": "Answer option 1",
+          "value": 1  // point value
+        },
+        {
+          "id": "q1a2",
+          "text": "Answer option 2",
+          "value": 5  // point value
+        }
+        // more answer options...
+      ]
+    }
+    // more questions...
+  ]
+}</code></pre>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const templateJson = document.getElementById('template-json');
+      const uploadBtn = document.getElementById('upload-btn');
+      const loginBtn = document.getElementById('login-btn');
+      const loadExampleBtn = document.getElementById('load-example');
+      const statusDiv = document.getElementById('status');
+      const usernameInput = document.getElementById('username');
+      const passwordInput = document.getElementById('password');
+      
+      let isAuthenticated = false;
+      
+      // Login function
+      loginBtn.addEventListener('click', async () => {
+        try {
+          const response = await fetch('/api/login', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              username: usernameInput.value,
+              password: passwordInput.value
+            }),
+            credentials: 'include'
+          });
+          
+          if (response.ok) {
+            isAuthenticated = true;
+            uploadBtn.disabled = false;
+            showStatus('Successfully logged in as admin', 'success');
+          } else {
+            showStatus('Login failed: ' + (await response.text()), 'error');
+          }
+        } catch (error) {
+          showStatus('Login error: ' + error.message, 'error');
+        }
+      });
+      
+      // Load example
+      loadExampleBtn.addEventListener('click', async () => {
+        try {
+          const response = await fetch('/example-risk-tolerance-template.json');
+          const example = await response.json();
+          templateJson.value = JSON.stringify(example, null, 2);
+        } catch (error) {
+          showStatus('Error loading example: ' + error.message, 'error');
+        }
+      });
+      
+      // Upload template
+      uploadBtn.addEventListener('click', async () => {
+        if (!isAuthenticated) {
+          showStatus('Please login first', 'error');
+          return;
+        }
+        
+        try {
+          // Parse JSON to validate it
+          const templateData = JSON.parse(templateJson.value);
+          
+          const response = await fetch('/api/question-templates', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(templateData),
+            credentials: 'include'
+          });
+          
+          if (response.ok) {
+            const result = await response.json();
+            showStatus('Template uploaded successfully!', 'success');
+            console.log('Upload result:', result);
+          } else {
+            showStatus('Upload failed: ' + (await response.text()), 'error');
+          }
+        } catch (error) {
+          if (error instanceof SyntaxError) {
+            showStatus('Invalid JSON format. Please check your template.', 'error');
+          } else {
+            showStatus('Upload error: ' + error.message, 'error');
+          }
+        }
+      });
+      
+      // Helper function
+      function showStatus(message, type) {
+        statusDiv.textContent = message;
+        statusDiv.className = 'status ' + type;
+        statusDiv.style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>

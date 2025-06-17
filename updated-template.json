@@ -1,0 +1,474 @@
+{
+  "id": "riskTolerance",
+  "title": "Risk Tolerance Assessment",
+  "description": "This questionnaire helps us understand your attitude toward investment risk so we can tailor your portfolio accordingly.",
+  "questions": [
+    {
+      "id": "Q1",
+      "text": "What is the intent of your portfolio? Please select the most appropriate one.",
+      "options": [
+        {
+          "id": "answer-Q1-1",
+          "text": "To generate income for today ",
+          "value": 0
+        },
+        {
+          "id": "answer-Q1-2",
+          "text": "To generate income at a later date ",
+          "value": 10
+        },
+        {
+          "id": "answer-Q1-3",
+          "text": "To provide for my dependents (I do not anticipate using these funds) ",
+          "value": 15
+        },
+        {
+          "id": "answer-Q1-4",
+          "text": "To fund a large purchase in the future",
+          "value": 10
+        },
+        {
+          "id": "answer-Q1-5",
+          "text": "To fund a philanthropy goal in the future",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "text": "What would your ideal portfolio experience be? Please select the most appropriate one.",
+      "options": [
+        {
+          "id": "answer-Q2-1",
+          "text": "To ensure my portfolio remains secure ",
+          "value": 2
+        },
+        {
+          "id": "answer-Q2-2",
+          "text": "To see my portfolio grow and to avoid fluctuating returns ",
+          "value": 5
+        },
+        {
+          "id": "answer-Q2-3",
+          "text": "To balance growth and security, and to keep pace with inflation ",
+          "value": 10
+        },
+        {
+          "id": "answer-Q2-4",
+          "text": "To provide growth potential, and to accept some fluctuation in returns ",
+          "value": 15
+        },
+        {
+          "id": "answer-Q2-5",
+          "text": "To provide the sole objective of potential long-term growth ",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "text": "Which of the following ranges includes your age?",
+      "options": [
+        {
+          "id": "answer-Q3-1",
+          "text": "Under 49",
+          "value": 15
+        },
+        {
+          "id": "answer-Q3-2",
+          "text": "50 to 59",
+          "value": 10
+        },
+        {
+          "id": "answer-Q3-3",
+          "text": "60 to 69",
+          "value": 5
+        },
+        {
+          "id": "answer-Q3-4",
+          "text": "70 to 79",
+          "value": 3
+        },
+        {
+          "id": "answer-Q3-5",
+          "text": "Over 79",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "Q4",
+      "text": "Which of the following ranges best represents your current annual family income (including pensions) before taxes?",
+      "options": [
+        {
+          "id": "answer-Q4-1",
+          "text": "Under $60,000",
+          "value": 4
+        },
+        {
+          "id": "answer-Q4-2",
+          "text": "$60,000 to $100,000",
+          "value": 6
+        },
+        {
+          "id": "answer-Q4-3",
+          "text": "$100,001 to $175,000",
+          "value": 8
+        },
+        {
+          "id": "answer-Q4-4",
+          "text": "$175,001 to $250,000",
+          "value": 10
+        },
+        {
+          "id": "answer-Q4-5",
+          "text": "More than $250,000",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "id": "Q5",
+      "text": "After deducting any loan or mortgage balances, which one of the following ranges best represents your immediate familys overall net worth?",
+      "options": [
+        {
+          "id": "answer-Q5-1",
+          "text": "Under $30,000 ",
+          "value": 2
+        },
+        {
+          "id": "answer-Q5-2",
+          "text": "$30,000 to $50,000 ",
+          "value": 4
+        },
+        {
+          "id": "answer-Q5-3",
+          "text": "$50,001 to $100,000 ",
+          "value": 6
+        },
+        {
+          "id": "answer-Q5-4",
+          "text": "$100,001 to $200,000 ",
+          "value": 8
+        },
+        {
+          "id": "answer-Q5-5",
+          "text": "More than $200,000",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "id": "Q6",
+      "text": "When would you begin using/withdrawing from your investment accounts?",
+      "options": [
+        {
+          "id": "answer-Q6-1",
+          "text": "Less than 3 years",
+          "value": 0
+        },
+        {
+          "id": "answer-Q6-2",
+          "text": "4 to 5 years",
+          "value": 5
+        },
+        {
+          "id": "answer-Q6-3",
+          "text": "6 to 10 years",
+          "value": 10
+        },
+        {
+          "id": "answer-Q6-4",
+          "text": "11 to 15 years",
+          "value": 15
+        },
+        {
+          "id": "answer-Q6-5",
+          "text": "16 or more years",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "Q7",
+      "text": "When you begin withdrawing from your investment accounts, how long do you anticipate the withdrawals lasting?",
+      "options": [
+        {
+          "id": "answer-Q7-1",
+          "text": "Over a period of 2 or less years",
+          "value": 3
+        },
+        {
+          "id": "answer-Q7-2",
+          "text": "Over a period of 3 to 5 years ",
+          "value": 5
+        },
+        {
+          "id": "answer-Q7-3",
+          "text": "Over a period of 6 to 9 years ",
+          "value": 8
+        },
+        {
+          "id": "answer-Q7-4",
+          "text": "Over a period of 10 to 15 years ",
+          "value": 10
+        },
+        {
+          "id": "answer-Q7-5",
+          "text": "Over a period of more than 15 years",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": "Q8",
+      "text": "What are your intentions regarding withdrawals and/or contributions to your investments today and over the next five years?",
+      "options": [
+        {
+          "id": "answer-Q8-1",
+          "text": "I plan to withdraw money at regular intervals and do not plan on making contributions. ",
+          "value": 5
+        },
+        {
+          "id": "answer-Q8-2",
+          "text": "I will likely make a lump-sum withdrawal and do not plan on making contributions. ",
+          "value": 7
+        },
+        {
+          "id": "answer-Q8-3",
+          "text": "I will likely be making both contributions and withdrawals. ",
+          "value": 8
+        },
+        {
+          "id": "answer-Q8-4",
+          "text": "I will likely make contributions and will potentially make infrequent withdrawals. ",
+          "value": 10
+        },
+        {
+          "id": "answer-Q8-5",
+          "text": "I will certainly make contributions and will not be withdrawing any funds. ",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": "Q9",
+      "text": "Please indicate which of the following statements best describes your household financial situation. ",
+      "options": [
+        {
+          "id": "answer-Q9-1",
+          "text": "My financial situation is very unstable and insecure.",
+          "value": 5
+        },
+        {
+          "id": "answer-Q9-2",
+          "text": "My financial situation is somewhat unstable and insecure.",
+          "value": 7
+        },
+        {
+          "id": "answer-Q9-3",
+          "text": "My financial situation is moderately stable and secure.",
+          "value": 8
+        },
+        {
+          "id": "answer-Q9-4",
+          "text": "My financial situation is quite stable and secure.",
+          "value": 10
+        },
+        {
+          "id": "answer-Q9-5",
+          "text": "My financial situation is very stable and secure.",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "text": "Which statement best describes your knowledge of investments?",
+      "options": [
+        {
+          "id": "answer-Q10-1",
+          "text": "I have little or no experience with the security markets and have held only Term Deposits or GICs",
+          "value": 2
+        },
+        {
+          "id": "answer-Q10-2",
+          "text": "I have some experience with the security markets and have held mutual funds, stocks, and/or bonds.  Though I seldom follow developments in the markets.",
+          "value": 5
+        },
+        {
+          "id": "answer-Q10-3",
+          "text": "I have a moderate amount of experience with the security markets and have held investment funds, stocks, and/or bonds.  I generally follow developments in the markets.",
+          "value": 8
+        },
+        {
+          "id": "answer-Q10-4",
+          "text": "I have a considerable amount of investment experience and have been involved in the management of my investments.  I actively follow developments in the markets.",
+          "value": 10
+        },
+        {
+          "id": "answer-Q10-5",
+          "text": "I consider myself an expert in investing.",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "text": "Realizing there will be downturns in the market, how long are you prepared to hold your existing investments in anticipation of a recovery in value?",
+      "options": [
+        {
+          "id": "answer-Q11-1",
+          "text": "Less than three months ",
+          "value": 5
+        },
+        {
+          "id": "answer-Q11-2",
+          "text": "Three to six months ",
+          "value": 8
+        },
+        {
+          "id": "answer-Q11-3",
+          "text": "Six months to one year ",
+          "value": 10
+        },
+        {
+          "id": "answer-Q11-4",
+          "text": "One to two years ",
+          "value": 15
+        },
+        {
+          "id": "answer-Q11-5",
+          "text": "Two or more years",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "text": "Assuming you invest $100,000 for the long term, what is the maximum drop in your portfolios value you could comfortably tolerate in any given year?",
+      "options": [
+        {
+          "id": "answer-Q12-1",
+          "text": "Id be uncomfortable with any loss.",
+          "value": 2
+        },
+        {
+          "id": "answer-Q12-2",
+          "text": "A $5,000 drop is all I could live with. ",
+          "value": 5
+        },
+        {
+          "id": "answer-Q12-3",
+          "text": "A $10,000 decline is something I could tolerate. ",
+          "value": 10
+        },
+        {
+          "id": "answer-Q12-4",
+          "text": "A $15,000 drop would be about all I could stand. ",
+          "value": 15
+        },
+        {
+          "id": "answer-Q12-5",
+          "text": "A $20,000 decline is pretty much my limit. ",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "text": "Which of the following statements most correctly describes your comfort with fluctuations in investment value?",
+      "options": [
+        {
+          "id": "answer-Q13-1",
+          "text": "I cannot accept any fluctuation in principal.",
+          "value": 5
+        },
+        {
+          "id": "answer-Q13-2",
+          "text": "I can only accept minimal fluctuations, and prefer to invest in safer, lower-return investments. ",
+          "value": 10
+        },
+        {
+          "id": "answer-Q13-3",
+          "text": "I am willing to tolerate some ups and downs in the value of my investments to achieve overall higher returns in the long run. ",
+          "value": 20
+        },
+        {
+          "id": "answer-Q13-4",
+          "text": "Good - I can handle major ups and downs in the market",
+          "value": 25
+        },
+        {
+          "id": "answer-Q13-5",
+          "text": "My main interest is high, long-term returns and I am not concerned about short-term decreases in the value of my investments. ",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "text": "What percentage of this investment could you afford to lose over the short-term (1-3 years) without affecting your long-term goals?",
+      "options": [
+        {
+          "id": "answer-Q14-1",
+          "text": "None - I cannot afford any losses.",
+          "value": 5
+        },
+        {
+          "id": "answer-Q14-2",
+          "text": "Less than 10% - Even small losses would be challenging.",
+          "value": 10
+        },
+        {
+          "id": "answer-Q14-3",
+          "text": "10-25% - I could tolerate moderate losses without altering my plans.",
+          "value": 20
+        },
+        {
+          "id": "answer-Q14-4",
+          "text": "25-50% - I could handle significant temporary losses without serious impact.",
+          "value": 25
+        },
+        {
+          "id": "answer-Q14-5",
+          "text": "More than 50% - I view this as long-term money and can endure substantial temporary losses.",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "text": "I am willing to experience potentially large and frequent declines in the value of my investments if it will increase the likelihood of achieving higher long-term returns.",
+      "options": [
+        {
+          "id": "answer-Q15-1",
+          "text": "Strongly agree",
+          "value": 20
+        },
+        {
+          "id": "answer-Q15-2",
+          "text": "Agree ",
+          "value": 15
+        },
+        {
+          "id": "answer-Q15-3",
+          "text": "Somewhat agree",
+          "value": 12
+        },
+        {
+          "id": "answer-Q15-4",
+          "text": "Disagree ",
+          "value": 10
+        },
+        {
+          "id": "answer-Q15-5",
+          "text": "Strongly disagree ",
+          "value": 5
+        }
+      ]
+    }
+  ],
+  "createdAt": "2025-04-17T18:51:56.846Z",
+  "version": 1
+}
